@@ -20,14 +20,15 @@ class Demo{
             int rem = n%10;
 
             sum += Math.pow(rem,count);
+            count--;
             n/=10;  
         }
 
         if(sum == original ){
-            System.out.println(original + " is an Armstrong number");
+            System.out.println("true");
         }
         else{
-            System.out.println(original + " is not an Armstrong number");
+            System.out.println(original + " false");
         }
     }
 }
