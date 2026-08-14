@@ -16,7 +16,7 @@ class Demo{
 
         for(int i =start; i<=end ; i++){
             if(i%2!=0){
-                System.out.print(i+ " ");
+                System.out.print(i+ " ");p
             }
         }
     }
